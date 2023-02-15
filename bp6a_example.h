@@ -27,6 +27,6 @@ int ecg_example(void);
 int gpio_examle(void);
 int i2c_example(void);
 int ppg_example(void);
+int tmp117_example(void);
 
-
-#endif  /* S1SBP6A_EXAMPLE_H */
+#endif /* S1SBP6A_EXAMPLE_H */
