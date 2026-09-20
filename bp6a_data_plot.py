@@ -71,7 +71,7 @@ class serialPlot:
 def main(argv):
 
 	FILE_NAME = argv[0]
-	portName = ""
+	portName = "COM7"
 	numPlots = 1
 
 	try:
