@@ -12,7 +12,8 @@ import sys
 import getopt
 
 class serialPlot:
-	def __init__(self, serialPort='/dev/ttyACM0', serialBaud=115200, plotLength=256):
+	#def __init__(self, serialPort='/dev/ttyACM0', serialBaud=115200, plotLength=256):
+	def __init__(self, serialPort='COM7', serialBaud=115200, plotLength=256):
 		self.port = serialPort
 		self.baud = serialBaud
 		self.plotMaxLength = plotLength
